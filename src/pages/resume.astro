@@ -1,0 +1,62 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
+import WorkingSkills from "../components/WorkingSkills";
+import Knowledges from "../components/Knowledges";
+---
+
+<Layout>
+  <div>
+    <!-- resume section start -->
+    <div class="bg-white lg:rounded-2xl dark:bg-[#111111]">
+      <div class="container sm:px-5 md:px-10 lg:px-14">
+        <div class="py-12 px-4 md:px-0">
+          <!-- resume page title -->
+          <h2 class="after-effect after:left-44">Resume</h2>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 mt-[30px]"
+          >
+            <!-- eductation start -->
+            <Education />
+            <!-- eductation end -->
+
+            <!-- experiment start -->
+            <Experience />
+            <!-- experiment start -->
+          </div>
+        </div>
+      </div>
+
+      <!-- working section start -->
+      <div
+        class="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <WorkingSkills />
+
+          <Knowledges />
+        </div>
+      </div>
+      <!-- working section end -->
+
+      <!-- footer start -->
+      <footer
+        class="overflow-hidden rounded-b-2xl"
+        style="background: transparent;"
+      >
+        <p class="text-center py-6 text-gray-lite dark:text-color-910">
+          © 2022 All Rights Reserved by <a
+            class="hover:text-[#FA5252] duration-300 transition"
+            href="../themeforest.net/user/ib-themes.html"
+            target="_blank"
+            rel="noopener noreferrer">ib-themes</a
+          >.
+        </p>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <!-- resume section start -->
+  </div>
+</Layout>

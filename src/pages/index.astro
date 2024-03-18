@@ -1,0 +1,117 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+const colors = [
+  "#fcf4ff",
+  "#fefaf0",
+  "#fcf4ff",
+  "#fff4f4",
+  "#fff0f8",
+  "#f3faff",
+];
+import { skills } from "../data";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import MainCarousel from "../components/MainCarousel";
+import PersonalInfo from "../components/PersonalInfo";
+---
+
+<Layout>
+  <!-- about me section start -->
+  <div>
+    <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
+      <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
+        <!-- about page title -->
+        <h2 class="after-effect after:left-52">About Me</h2>
+        <!-- personal info for mobile devices start -->
+        <PersonalInfo />
+        <!-- personal info for mobile devices end -->
+
+        <div
+          class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden"
+        >
+          <div class="col-span-12 space-y-2.5">
+            <div class="lg:mr-16">
+              <p class="text-[#44566c] dark:text-color-910 leading-7">
+                I'm Creative Director and UI/UX Designer from Sydney, Australia,
+                working in web development and print media. I enjoy turning
+                complex problems into simple, beautiful and intuitive designs.
+              </p>
+              <p class="text-[#44566c] leading-7 mt-2.5 dark:text-color-910">
+                My aim is to bring across your message and identity in the most
+                creative way. I created web design for many famous brand
+                companies.
+              </p>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- what i do section start -->
+      <div class="pb-12 px-2 sm:px-5 md:px-10 lg:px-14">
+        <h3 class="text-[35px] dark:text-white font-bold font-robotoSlab pb-5">
+          What I do!
+        </h3>
+        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
+          {
+            skills.map((item) => {
+              return (
+                <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
+                  <img
+                    class="w-10 h-10 object-contain block"
+                    src={item.img}
+                    alt="icon"
+                  />
+                  <div class="space-y-2">
+                    <h3 class="dark:text-white text-[22px] font-semibold">
+                      {item.skill}
+                    </h3>
+                    <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+                      {item.about}
+                    </p>
+                  </div>
+                </div>
+              );
+            })
+          }
+        </div>
+      </div>
+
+      <!-- what i do section start -->
+      <div class="px-2 sm:px-5 md:px-10 lg:px-14">
+        <div
+          class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl"
+        >
+          <h3
+            class="text-center dark:text-white text-[1.75rem] mb-3 font-semibold"
+          >
+            Clients
+          </h3>
+          <!-- slider and slider items -->
+          <MainCarousel client:only />
+          <!-- slider and slider items end -->
+        </div>
+      </div>
+
+      <!-- footer start -->
+      <footer
+        class="overflow-hidden rounded-b-2xl"
+        style="background: transparent"
+      >
+        <p class="text-center py-6 text-gray-lite dark:text-color-910">
+          © 2022 All Rights Reserved by <a
+            class="hover:text-[#FA5252] duration-300 transition"
+            href="../themeforest.net/user/ib-themes.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ib-themes</a
+          >.
+        </p>
+      </footer>
+      <!-- footer section end -->
+    </div>
+  </div>
+  <!-- about me section start -->
+</Layout>
