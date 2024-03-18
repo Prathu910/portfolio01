@@ -32,42 +32,42 @@ export const skills = [
     skill: "Ui/Ux Design",
     about:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    img: icon,
+    img: icon.src,
   },
   {
     id: 2,
     skill: "App Development",
     about:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    img: icon1,
+    img: icon1.src,
   },
   {
     id: 3,
     skill: "Photography",
     about:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    img: icon2,
+    img: icon2.src,
   },
   {
     id: 4,
     skill: "Photography",
     about:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    img: icon3,
+    img: icon3.src,
   },
   {
     id: 5,
     skill: "Managment",
     about:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    img: icon4,
+    img: icon4.src,
   },
   {
     id: 6,
     skill: "Web Development",
     about:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    img: icon5,
+    img: icon5.src,
   },
 ];
 
@@ -77,63 +77,63 @@ export const work = [
     title: "Chul urina",
     category: "UI/UX",
     link: "#portfolioOne",
-    img: work1,
+    img: work1.src,
   },
   {
     id: 2,
     title: "Chul urina",
     category: "Logo",
     link: "#portfolioTwo",
-    img: work2,
+    img: work2.src,
   },
   {
     id: 3,
     title: "T-Shirt Design",
     category: "UI/UX",
     link: "#portfolioThree",
-    img: work3,
+    img: work3.src,
   },
   {
     id: 4,
     title: "Packaging Box",
     category: "Web Design",
     link: "#portfolioFour",
-    img: work4,
+    img: work4.src,
   },
   {
     id: 5,
     title: "Aura Dione",
     category: "Web Design",
     link: "#portfolioFive",
-    img: work5,
+    img: work5.src,
   },
   {
     id: 6,
     title: "Modern Bag Design",
     category: "Video",
     link: "#portfolioSix",
-    img: work6,
+    img: work6.src,
   },
   {
     id: 7,
     title: "Chul urina",
     category: "Video",
     link: "#portfolioSeven",
-    img: work7,
+    img: work7.src,
   },
   {
     id: 8,
     title: "Chul urina",
     category: "Video",
     link: "#portfolioEight",
-    img: work8,
+    img: work8.src,
   },
   {
     id: 9,
     title: "Aura Dione",
     category: "Web Design",
     link: "#portfolioNine",
-    img: work9,
+    img: work9.src,
   },
 ];
 
@@ -143,7 +143,7 @@ export const blogs = [
     title: "How to Own Your Audience by Creating an Email List.",
     date: "17 April",
     category: "Inspiration",
-    img: blog1,
+    img: blog1.src,
     link: "#ex1",
   },
   {
@@ -151,7 +151,7 @@ export const blogs = [
     title: "Everything You Need to Know About Web Accessibility.",
     date: "10 April",
     category: "Inspiration",
-    img: blog2,
+    img: blog2.src,
     link: "#ex2",
   },
   {
@@ -159,7 +159,7 @@ export const blogs = [
     title: "he window know to say beside youT",
     date: "21 April",
     category: "Web Design",
-    img: blog3,
+    img: blog3.src,
     link: "#ex3",
   },
   {
@@ -167,7 +167,7 @@ export const blogs = [
     title: "Top 10 Toolkits for Deep Learning in 2021.",
     date: "27 April",
     category: "Inspiration",
-    img: blog4,
+    img: blog4.src,
     link: "#ex4",
   },
 ];
@@ -175,37 +175,37 @@ export const blogs = [
 export const carouselData = [
   {
     id: 1,
-    img: carousel1,
+    img: carousel1.src,
   },
   {
     id: 2,
-    img: carousel2,
+    img: carousel2.src,
   },
   {
     id: 3,
-    img: carousel3,
+    img: carousel3.src,
   },
   {
     id: 4,
-    img: carousel4,
+    img: carousel4.src,
   },
   {
     id: 5,
-    img: carousel5,
+    img: carousel5.src,
   },
   {
     id: 6,
-    img: carousel6,
+    img: carousel6.src,
   },
   {
     id: 7,
-    img: carousel7,
+    img: carousel7.src,
   },
 ];
 
 export const personalInfo = {
   id: 1,
-  avatar: avatarImg,
+  avatar: avatarImg.src,
   name: "Monalisa Ashley",
   profession: "Ui/Ux Designer",
   phone: "+123 456 7890",

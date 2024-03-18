@@ -80,7 +80,7 @@ const Header = () => {
       <div className="section-bg">
         <div className="w-full flex justify-between px-4">
           <a href="/">
-            <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
+            <img className="h-[26px] lg:h-[32px]" src={logo.src} alt="logo" />
           </a>
           <div className="flex items-center">
             <button id="theme-toggle" type="button" className="dark-light-btn">

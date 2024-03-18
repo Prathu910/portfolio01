@@ -24,27 +24,6 @@ const Education = () => {
           </div>
         );
       })}
-      {/* <div className="bg-[#fff4f4] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2">
-        <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-          2021-2023
-        </span>
-        <h3 className="text-xl dark:text-white">Ph.D in Horriblensess</h3>
-        <p className="dark:text-[#b7b7b7]">ABC University, Los Angeles, CA</p>
-      </div>
-      <div className="bg-[#fff1fb] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 rounded-lg mb-6 dark:border-[#212425] dark:border-2">
-        <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-          2019 - Present
-        </span>
-        <h3 className="text-xl dark:text-white">Sr. Software Tester</h3>
-        <p className="dark:text-[#b7b7b7]">Google Inc.</p>
-      </div>
-      <div className="py-4 pl-5 bg-[#fff4f4] dark:bg-transparent pr-3 space-y-2 rounded-lg dark:border-[#212425] dark:border-2">
-        <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-          2021
-        </span>
-        <h3 className="text-xl dark:text-white">Best Developer</h3>
-        <p className="dark:text-[#b7b7b7]">University Of Melbourne, NA</p>
-      </div> */}
     </div>
   );
 };

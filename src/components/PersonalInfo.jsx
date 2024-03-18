@@ -135,7 +135,8 @@ const PersonalInfo = () => {
 
           {/* <!-- dowanload button --> */}
           <button className="dowanload-btn">
-            <img className="mr-3" src={downloadImg} alt="icon" /> Download CV
+            <img className="mr-3" src={downloadImg.src} alt="icon" /> Download
+            CV
           </button>
         </div>
       </div>
